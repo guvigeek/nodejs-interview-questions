@@ -383,6 +383,15 @@ addRandomNumber();
     <b><a href="#">↥ back to top</a></b>
 </div>
 
+## Q. ***When Should We Use Node.Js?***
+
+We should use Node.js when we are building systems which require high number of I/O operations. Like saving data to DB, files access. NodeJS shines in such situation. For Ex : IoT Applications, Video Streaming.
+
+## Q. ***When Node.js should not be used?***
+
+Node.js should not be used when you have lot of synchronous code that needs to be run. Applications which require number crunching or data analysis should not use Node.js. For Ex. Matrix Multiplication, Summation, Aggregation of large datasets. In such cases, applications which allow Multi Threading out of the box like Python, Java should be used.
+
+
 ## Q. ***What are Promises in Node.js?***
 
 It allows to associate handlers to an asynchronous action\'s eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of the final value, the asynchronous method returns a promise for the value at some point in the future.
